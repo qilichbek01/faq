@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  background: linear-gradient(180deg, #af68ea 0%, #6563e8 100%);
+  /* background-repeat: no-repeat; */
+  overflow: hidden;
+}
+.header_box {
+  width: 920px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_box {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 20px 19px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 72px 70px 0px;
+  overflow: hidden;
+}
+
+.box_right {
+  margin-left: -555px;
+  z-index: 5;
+}
+.box_right .bg_pattern {
+  position: absolute;
+  margin-right: -555px;
+  margin-top: -550px;
+}
+.box_right .woman_online {
+  position: absolute;
+  margin-left: 494px;
+  margin-top: -180px;
+  /* overflow: hidden; */
+  z-index: 2;
+}
+.box_right .box_cobe {
+  position: absolute;
+  margin-left: 480px;
+  margin-top: -50px;
+  z-index: 3;
+}
+
+.faq_question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 71px; */
+}
+.box_left {
+}
+.box_left h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+.box_left p {
+  color: #525157;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.07px;
+}
+.box_left .selected_p {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+.box_left .text_p {
+  width: 373px;
+}
+.faq_line {
+  width: 351px;
+  height: 1px;
+  background: #e8e8e8;
+  margin-top: 18px;
+  margin-bottom: 16px;
+}
